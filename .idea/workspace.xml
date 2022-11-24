@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="333951e7-9905-468f-a665-500bd7a65401" name="Changes" comment="-Added files">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/images/offline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ListViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyVaadin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyVaadin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/views/list/ListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/views/list/ListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ContactFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <recent name="com.example.application.views.list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactFormTest (1)">
+  <component name="RunManager" selected="JUnit.com.example.application.views.list in MyVaadin">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.application.Application" />
       <module name="MyVaadin" />
@@ -98,6 +99,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyVaadin" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.application.views.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.application.views.list" />
+      <option name="MAIN_CLASS_NAME" value="com.example.application.views.list.ContactForm" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,12 +175,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.application.views.list in MyVaadin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyVaadin" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.application.views.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.application.views.list" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.example.application.views.list in MyVaadin" />
+        <item itemvalue="JUnit.ContactFormTest" />
+        <item itemvalue="JUnit.ContactFormTest (1)" />
         <item itemvalue="JUnit.ContactFormTest (1)" />
         <item itemvalue="JUnit.ContactFormTest " />
-        <item itemvalue="JUnit.ContactFormTest" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669286330733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-Added files">
+      <created>1669312507268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669312507268</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
