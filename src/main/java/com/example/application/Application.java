@@ -19,7 +19,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @Theme(value = "flowcrmtutorial")
 @PWA(
         name = "Vaadin CRM",
-        shortName = "CRM"
+        shortName = "CRM",
+        offlinePath="offline.html",
+        offlineResources = { "./images/offline.png"}
 )
 @NpmPackage(value = "line-awesome", version = "1.3.0")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
