@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="333951e7-9905-468f-a665-500bd7a65401" name="Changes" comment="-Added files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ListViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyVaadin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyVaadin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/application/it/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/application/it/LoginIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/application/it/elements/LoginViewElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/views/list/ListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/views/list/ListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/application/views/list/ContactFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <recent name="com.example.application.views.list" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.example.application.views.list in MyVaadin">
+  <component name="RunManager" selected="JUnit.LoginIT">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.application.Application" />
       <module name="MyVaadin" />
@@ -99,40 +98,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyVaadin" />
-      <shortenClasspath name="ARGS_FILE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.application.views.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.application.views.list" />
-      <option name="MAIN_CLASS_NAME" value="com.example.application.views.list.ContactForm" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactFormTest " type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="MyVaadin" />
-      <shortenClasspath name="ARGS_FILE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.application.views.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.application.views.list" />
-      <option name="MAIN_CLASS_NAME" value="com.example.application.views.list.ContactFormTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyVaadin" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.application.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.application.it" />
+      <option name="MAIN_CLASS_NAME" value="com.example.application.it.LoginIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <shortenClasspath name="ARGS_FILE" />
       <option name="TEST_OBJECT" value="class" />
@@ -192,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginIT" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.com.example.application.views.list in MyVaadin" />
         <item itemvalue="JUnit.ContactFormTest" />
         <item itemvalue="JUnit.ContactFormTest (1)" />
-        <item itemvalue="JUnit.ContactFormTest (1)" />
-        <item itemvalue="JUnit.ContactFormTest " />
       </list>
     </recent_temporary>
   </component>
